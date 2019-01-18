@@ -1,0 +1,11 @@
+package rules;
+
+import com.lenovohit.drools.model.Message;
+
+dialect  "mvel"
+
+rule "HelloWorld"
+    when
+    then
+        System.out.println("HelloWorld!");
+end
